@@ -23,7 +23,6 @@ public class KataStringCalculatorTest {
 
     @Test
     public void should_return_0_when_argument_is_zero() {
-
         assertEquals(0, KataStringCalculator.add("0"));
     }
 
@@ -44,7 +43,7 @@ public class KataStringCalculatorTest {
 
     @Test
     public void should_return_minus_8_when_argument_is_minus_10plus_3_plus1_minus2() {
-        assertEquals(8, KataStringCalculator.add("-10+3+1-2"));
+        assertEquals(-8, KataStringCalculator.add("-10+3+1-2"));
     }
 
     @Test
