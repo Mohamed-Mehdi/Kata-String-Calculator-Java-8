@@ -25,6 +25,8 @@ to starts standards test in your command line :
 ##Lunch
 To start the app from your command line first you need to build the package
 > mvn package
+
+
 To start the app using your own string chain in your command line :
 >mvn exec:java -Dexec.mainClass="com.Viseo.KataStringCalculator.Main"  -Dexec.args=""**your chain**""
 
